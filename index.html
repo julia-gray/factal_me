@@ -247,32 +247,6 @@ nav {
   animation: fadeUp 0.8s ease 0.9s both;
 }
 
-/* Scroll indicator */
-.scroll-hint {
-  position: absolute;
-  bottom: 40px;
-  left: 48px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  opacity: 0;
-  animation: fadeUp 0.8s ease 1.2s both;
-}
-
-.scroll-line {
-  width: 40px;
-  height: 1px;
-  background: var(--gray-dark);
-}
-
-.scroll-text {
-  font-family: var(--mono);
-  font-size: 10px;
-  color: var(--gray);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
 /* ── Stats bar ── */
 .stats-bar {
   padding: 32px 48px;
@@ -928,12 +902,6 @@ footer {
     <button onclick="submitWaitlist('hero-email')">Join waitlist</button>
   </div>
   <p class="hero-note">First creator cohort opening soon · No commitment</p>
-
-  <div class="scroll-hint">
-    <div class="scroll-line"></div>
-    <span class="scroll-text">Scroll</span>
-  </div>
-</section>
 
 <!-- Explainer -->
 <section class="explainer-section">
